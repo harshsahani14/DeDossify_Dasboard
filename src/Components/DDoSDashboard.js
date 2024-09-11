@@ -48,7 +48,7 @@ const DDoSDashboard = () => {
     <div className="flex h-screen bg-gray-100">
       {/* Sidebar */}
       <div className={`bg-blue-800 text-white w-64 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} md:relative md:translate-x-0 transition duration-200 ease-in-out`}>
-        <h2 className="text-2xl font-semibold text-center">DDoS Dashboard</h2>
+        <h2 className="text-2xl font-semibold text-center">DeDDOSify</h2>
         <nav>
           <a href="#" className="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white" onClick={() => setCurrentView('overview')}>
             <FiBarChart2 className="inline-block mr-2" /> Overview
